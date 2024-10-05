@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(0, 0, 34);
+}
+header{
+    
+    height: 10vb;
+    top: 80px;
+}
+header h1,h4{
+    color: aliceblue;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    
+}
+
+.logo{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    top: -150px;
+}
+
+.logo img {
+  width: 50%;
+  position: relative;
+ 
+    
+
+}
