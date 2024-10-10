@@ -1,3 +1,4 @@
+
 body{
     background-color: rgb(0, 0, 34);
 }
@@ -11,6 +12,17 @@ header h1,h4{
     justify-content: center;
     position: relative;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.conteudo h1{
+    color: aliceblue;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: -90;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
 
@@ -21,7 +33,7 @@ header h1,h4{
     align-items: center;
     height: 100vh;
     position: relative;
-    top: -150px;
+    top: -100px;
 }
 
 .logo img {
@@ -30,4 +42,24 @@ header h1,h4{
  
     
 
+}
+.conteudo{
+    color:aliceblue;
+    display:block;
+    position: relative;
+    margin: 20px;
+    top: -100px;
+}
+
+.fotos .foto-one{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px auto;
+
+}
+.foto-one img{
+    width: 70%;
+    height: auto;
+    border: 2px solid #ccc;
 }
